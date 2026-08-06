@@ -27,6 +27,7 @@ public:
                     // BUG HERE ↓
                     while (left < right && nums[right] == nums[right - 1])
                         right--;
+                        left++;
                 }
                 else if (sum < 0) {
                     left++;
